@@ -1,3 +1,8 @@
 Patterns/.vs/
 Patterns/packages/
 Patterns/SimpleStatePattern/obj/
+Patterns/SimpleStatePattern/bin/
+Patterns/Tests/bin/
+Patterns/Tests/obj/
+Patterns/UsageExample/bin/
+Patterns/UsageExample/obj/
