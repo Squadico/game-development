@@ -1,4 +1,4 @@
-﻿namespace UsageExamples
+﻿namespace UsageExamples.SimpleStatePattern
 {
     partial class SimpleStatePatternExampleForm
     {

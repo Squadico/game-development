@@ -1,7 +1,7 @@
 ﻿using SimpleStatePattern;
 using System.Windows.Forms;
 
-namespace UsageExamples
+namespace UsageExamples.SimpleStatePattern
 {
     public partial class SimpleStatePatternExampleForm : Form
     {

@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using UsageExamples.SimpleStatePattern;
 
 namespace UsageExamples
 {
