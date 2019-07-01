@@ -34,10 +34,10 @@ namespace Network.Transport
             SendQueue = new AsyncCollection<byte[]>(new ConcurrentQueue<byte[]>());
             ReceiveQueue = new AsyncCollection<byte[]>(new ConcurrentQueue<byte[]>());
 
-            Publish();
+            ReceiveAsync();
         }
 
-        public async void Connect()
+        public async void ConnectAsync()
         {
             CancelSource = new CancellationTokenSource();
 
@@ -105,7 +105,7 @@ namespace Network.Transport
                 RemoteDisconnect();
             }
         }
-        async void Publish()
+        async void ReceiveAsync()
         {
             while (true)
             {

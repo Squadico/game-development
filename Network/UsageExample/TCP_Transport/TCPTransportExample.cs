@@ -32,7 +32,7 @@ namespace UsageExample.Networking.Tcp
         
         private void ConnectButton_Click(object sender, EventArgs e)
         {
-            Protocol.Connect();
+            Protocol.ConnectAsync();
         }
 
         private void DisconnectButton_Click(object sender, EventArgs e)

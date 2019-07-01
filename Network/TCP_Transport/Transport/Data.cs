@@ -5,7 +5,7 @@ namespace Network.Transport
     public class Data
     {
         public const int ReceivedBufferLength = 512;
-        public const byte PrefixLength = sizeof(int);
+        public const byte PrefixLength = 4;
 
         public static byte[] AddSizeToMessage(byte[] message)
         {
