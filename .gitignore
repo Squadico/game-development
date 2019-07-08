@@ -1,4 +1,8 @@
 .vs/
+.idea/
 packages/
 obj/
 bin/
+Library/
+Packages/
+Temp/

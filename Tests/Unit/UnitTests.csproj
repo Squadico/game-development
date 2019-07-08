@@ -56,11 +56,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\01_Patterns\01_StatePattern\StatePattern.csproj">
+    <ProjectReference Include="..\..\01_Patterns\01_StatePattern\StatePattern.csproj">
       <Project>{21253591-69c6-436c-acf2-8c12a587b4fe}</Project>
       <Name>StatePattern</Name>
     </ProjectReference>
-    <ProjectReference Include="..\02_Network\01_TcpTransport\TcpTransport.csproj">
+    <ProjectReference Include="..\..\02_Network\01_TcpTransport\TcpTransport.csproj">
       <Project>{5febae38-dcd4-4852-9cf6-e49a063372a8}</Project>
       <Name>TcpTransport</Name>
     </ProjectReference>
